@@ -10,13 +10,9 @@ body {
   width: 100%;
 }
 
-#header {
-  background-color: #e2e0e0;
-}
-
 #row-logo {
   display: flex;
-  margin: 10px 250px;
+  margin: 10px 200px;
   justify-content: space-between;
   align-items: center;
 }
@@ -38,6 +34,7 @@ body {
   height: 35px;
   width: 35px;
   object-fit: contain;
+  margin-right: 3px;
 }
 
 .right-nav {
@@ -45,21 +42,17 @@ body {
   flex-direction: column;
 }
 
-.right-nav-up {
-  justify-content: space-between;
-  align-items: center;
-  padding: 2px;
-}
-
 .search-bar {
   border: 1px solid maroon;
   border-radius: 12px;
-  font-size: 12px;
+  font-size: 14px;
   padding: 3px 15px 3px 35px;
 }
 
 .right-nav-up {
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -67,4 +60,5 @@ body {
   width: 100px;
   object-fit: contain;
   margin: 10px;
+  justify-content: space-between;
 }
