@@ -1,3 +1,8 @@
+@font-face {
+  font-family: font-awesome;
+  src: url(/assets/fonts/fontawesome-webfont.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +13,12 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-family: font-awesome;
 }
 
-#navDiv{
+#navDiv {
   width: 100%;
-  background-color: #DDDD;
+  background-color: #dddd;
   padding-left: 10%;
   padding-right: 10%;
   color: #630101;
@@ -22,7 +28,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#topNavbar{
+#topNavbar {
   height: 27px;
   display: flex;
   align-items: center;
@@ -31,19 +37,18 @@ body {
   font-size: 10px;
 }
 
-#topNavbar>li{
+#topNavbar > li {
   border-right: 1px solid #630101;
   padding-left: 8px;
   padding-top: 5px;
   padding-right: 5px;
   text-wrap: nowrap;
-
 }
 
-#topNavbar>li:hover{
-  color: #74B434;
+#topNavbar > li:hover {
+  color: #74b434;
   cursor: pointer;
-} 
+}
 
 #row-logo {
   display: flex;
@@ -91,9 +96,62 @@ body {
 }
 
 .logo {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   object-fit: contain;
   margin: 10px;
   justify-content: space-between;
+}
+
+.page-1 {
+  height: 360px;
+  background-color: #cbdfec;
+  margin-bottom: 100px;
+}
+
+.heading-exam {
+  text-align: center;
+  justify-content: space-between;
+  margin: 0px 400px;
+}
+
+.heading-exam-text-1 {
+  color: #8e0101;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  border-bottom: #ffffff;
+}
+
+.heading-exam-text-2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.heading-exam-text-2 {
+  color: #ffffff;
+  padding: 8px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.heading-logo {
+  height: 130px;
+  width: 110px;
+  object-fit: contain;
+}
+
+.heading-councelling {
+  background-color: #8e0101;
+  border: 1px solid #520000;
+}
+
+.heading-councelling > h1 {
+  border-bottom: #cbdfec;
+  padding: 10px;
+}
+
+.heading-url {
+  background-color: #f1900e;
 }
