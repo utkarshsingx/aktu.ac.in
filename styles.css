@@ -10,6 +10,41 @@ body {
   width: 100%;
 }
 
+#navDiv{
+  width: 100%;
+  background-color: #DDDD;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #630101;
+  font-weight: 900;
+  justify-content: center;
+  border-bottom: 2px dashed #630101;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#topNavbar{
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 10px;
+}
+
+#topNavbar>li{
+  border-right: 1px solid #630101;
+  padding-left: 8px;
+  padding-top: 5px;
+  padding-right: 5px;
+  text-wrap: nowrap;
+
+}
+
+#topNavbar>li:hover{
+  color: #74B434;
+  cursor: pointer;
+} 
+
 #row-logo {
   display: flex;
   margin: 10px 200px;
