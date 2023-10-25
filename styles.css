@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#header {
+  background-color: #e2e0e0;
+}
+
+#row-logo {
+  display: flex;
+  margin: 10px 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  padding: 0px 5px;
+}
+
+.aktu-logo {
+  height: 100px;
+  width: 500px;
+  padding: 0px 5px;
+}
+
+.logo-2 {
+  height: 35px;
+  width: 35px;
+  object-fit: contain;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-nav-up {
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+
+.search-bar {
+  border: 1px solid maroon;
+  border-radius: 12px;
+  font-size: 12px;
+  padding: 3px 15px 3px 35px;
+}
+
+.right-nav-up {
+  flex-direction: row;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  margin: 10px;
+}
