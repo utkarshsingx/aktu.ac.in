@@ -19,3 +19,11 @@ This repository contains the source code for a college website project. The proj
 - CSS: Used for styling the website.
 - JavaScript: Used for interactivity and dynamic elements.
 
+#Contributors
+
+<a href="https://github.com/utkarshsingx/aktu.ac.in/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=utkarshsingx/aktu.ac.in" />
+</a>
+
+
+
