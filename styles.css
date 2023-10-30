@@ -241,3 +241,32 @@ body {
   margin-top: 2rem;
   margin-bottom: 4rem;
 }
+
+.website-block{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.our-websites-title{
+  font-size: 30px;
+  color: #740c01;
+  font-weight: bold;
+}
+.website-button{
+  cursor: pointer;
+}
+.our-website-title-section{
+  border-bottom: 2px solid #630101;
+  border-color: black;
+  justify-content: center;
+  height: 50px;
+  margin-bottom: 40px;
+}
+.our-websites{
+  justify-content: center;
+}
+.each-website{
+  border: 1px solid black;
+}
