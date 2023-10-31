@@ -270,3 +270,35 @@ body {
 .each-website{
   border: 1px solid black;
 }
+
+/* media gallery css */
+.media-gallary{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  width: fit-content;
+  margin-left: 40px;
+}
+.media-gallary-title{
+  border-bottom: 2px solid #630101;
+  border-color: black;
+  justify-content: center;
+  height: 50px;
+  margin-bottom: 40px;
+}
+.media-gallary-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+}
+.media-gallary-title{
+  font-size: 30px;
+  color: #740c01;
+  font-weight: bold;
+}
+.media-gallary-each-photo{
+  background-color: #f0f0f0;
+  padding: 15px;
+}
